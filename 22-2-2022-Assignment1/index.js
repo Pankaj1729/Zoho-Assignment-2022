@@ -20,7 +20,7 @@ function get_browser() {
         }   
 
     // if browser is opera
-    if(M[1]==='Chrome'){
+    if(M[1]==='Opera'){
         tem=ua.match(/\bOPR|Edge\/(\d+)/)
         if(tem!=null)   {
         document.querySelector('#browsername').innerText = `${'Opera'}`;
