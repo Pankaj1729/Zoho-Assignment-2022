@@ -1,0 +1,11 @@
+#img1{
+    display: inline-block;
+}
+
+#sprite{
+    background: url(spriteImage.jpeg) no-repeat;
+    width: 105px;
+    height: 105px;
+    display: inline-block;
+    background-position: 0px 120px;
+}
