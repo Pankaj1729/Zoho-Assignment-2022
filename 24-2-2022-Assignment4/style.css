@@ -1,0 +1,9 @@
+.imgdiv{
+    height: 200px;
+    width: 200px;
+    border: 5px solid black;
+}
+.imgdiv img{ 
+    height: 200px;
+    width: 200px;
+}
