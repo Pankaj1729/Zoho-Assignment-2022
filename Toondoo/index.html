@@ -1,0 +1,65 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Tool Bar</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <div class="toolbar_main">
+    <!--******* tool bar Total main div start******** -->
+    <div class="toolbarmenupart">
+      <!--******* tool bar Top menu main div start ********** -->
+      <div class="toolbarmenupart_lft"><span id="topValue">1</span></div>
+      <!-- <div class="toolbarmenupart_rht"><span>
+               	  <img  class="leftmenu_arrow" src="spacer.gif"  alt="arrow"  border="0"/>
+                  <input class="menubutton_rht" name="" type="button" border="0"  align="left" value="Previous" />
+                  <input class="menubutton_lft" name="" type="button" border="0" value="Next" />
+                  <img class="rightmenu_arrow " src="spacer.gif" alt="arrow"  border="0"/></span>
+                </div> -->
+    </div>
+    <!--******* tool bar Top menu main div End ********** -->
+
+    <div class="toolbarlist">
+      <!--******** tool bar list div start *********** -->
+      <div class="toolbarlist_lft">
+        <!--******** tool bar list left div *********** -->
+        <input name="" class="area" type="button" border="0" />
+
+        <!-- left wala small button -->
+        <input id="lft" class="preview" name="" type="button" border="0" />
+      </div>
+      <div class="toolbarlist_mid"><input name="" type="button" border="0" /></div>
+      <!--******** tool bar list mid div *********** -->
+
+
+      <!-- right wale buttons -->
+      <div class="toolbarlist_rht">
+        <!--******** tool bar list Right div *********** -->
+        <!-- right wala small button -->
+        <input name="" id="rht" type="button" border="0" />
+        <input class="area" name="" type="button" border="0" />
+      </div>
+    </div>
+    <!--******** tool bar list div start *********** -->
+
+    <div class="toolbarbutton">
+      <!--******** tool bar move button div start *********** -->
+      <div class="toolbarbutton_lft"><span id="move">1</span></div>
+      <div class="toolbarbutton_rht"><span id="go" style="position:relative;top:-2px;">Go</span></div>
+    </div>
+    <!--******** tool bar move button div End *********** -->
+
+  </div>
+  <!--******* tool bar Total main div End******** -->
+
+  <div class="toolbar_main" id="slide"> </div>
+  <div class="count"></div>
+  <script src="script.js"></script>
+</body>
+
+</html>
